@@ -1,10 +1,6 @@
 FROM node:13.8.0-alpine
 
-WORKDIR /usr/src/app
-
-ENV NODE_ENV=PROD
-
-RUN mkdir /usr/src/files
+WORKDIR /usr/src/
 
 COPY package.json .
 COPY ./src .
