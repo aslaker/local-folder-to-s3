@@ -5,8 +5,8 @@
   "main": "./src/index.js",
   "scripts": {
     "start": "node ./index.js",
-    "prestart:docker": " docker rm s3sync && docker rmi sync-folder-with-s3:latest",
-    "start:docker": "docker build --tag sync-folder-with-s3:latest . && docker run --name s3sync -it -v /Users/adamslaker/Desktop/Mining_Game:/usr/src/files sync-folder-with-s3",
+    "prestart:docker": " docker rm s3syncdocker && docker rmi sync-folder-with-s3:latest",
+    "start:docker": "docker build --tag sync-folder-with-s3:latest . && docker run --name s3syncdocker -it -v /Users/adamslaker/Desktop/Mining_Game:/usr/src/files sync-folder-with-s3",
     "dev": "nodemon ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
