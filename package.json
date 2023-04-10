@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.627.0",
+    "aws-sdk": "^2.1354.0",
     "dotenv": "^8.2.0",
     "node-watch": "^0.6.3"
   },
